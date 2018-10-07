@@ -1,4 +1,266 @@
-<html>
-	<b>test</b>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Joseph Spivack's webpage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+  body {
+	margin-top: 70px;
+	position: relative;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background-color: #1D2731; 
+  }
+   .navbar-inverse {
+    background-color: #0B3C5D;
+    border-color: #0B3C5D;
+   }
+   .navbar-inverse .navbar-nav > li > a {
+    color: #D9B310;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	color: #FFFFFF;	
+}
+.navbar-default .navbar-nav > li > a:focus {
+    color: #D9B310;
+}
+  .well{
+       background-color: #328CC1;
+       border-color:#0B3C5D;
+       color: #FFFFFF;
+   }
+   .panel > .panel-heading{
+       background-image: none;
+       background-color: #0B3C5D;
+       border-color:#0B3C5D;
+       color: #FFFFFF;
+   }
+   .panel-body {
+       background-color: #328CC1;
+       border-color:#0B3C5D;
+       color: #FFFFFF;
+   }
+   .panel {
+	border-color:#0B3C5D;
+   }
+  .affix {
+      top:0;
+      z-index: 10;
+  }
+  .navbar {
+      margin-bottom: 20px;
+  }
 
+  .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+  .elements {	
+	padding-top: 100px;
+    	margin-top: 100px;
+	margin-left: 20%;
+	margin-right: 20%;
+    	-webkit-background-clip: content-box;
+    	background-clip: content-box;
+	
+  }
+  h1 {color:#D9B310;}
+  h2 {color:#D9B310;}
+  h3 {color:#D9B310;}
+  h4 {color:#D9B310;}
+
+</style>
+</head>
+<body>	
+	<nav class="class = navbar navbar-inverse navbar-fixed-top">
+	<div class="container-fluid">	
+	<ul class="nav navbar-nav">
+      		<li><a href="#Bio">Bio</a></li>
+      		<li><a href="#Experience">Experience</a></li>
+      		<li><a href="#Skills">Skills</a></li>
+      		<li><a href="#Awards">Awards</a></li>
+		<li><a href="#Photos">Photos</a></li>
+	</ul>
+	</div>
+</nav>
+	<div style="margin-top:25px;" class="text-center">
+		<img src="./Img/me.jpg" class="img-circle center-block" alt="me" width=20% hight=20%>
+		<h1 id="Bio" style="padding-top:70px; margin-top:-50px;">Joseph Spivack</h1>
+	</div>
+	<div class="container-fluid navbar-fixed-top" style="margin-left:0%; margin-right:80%; margin-top:70px" >
+	<div class="panel panel-default">
+		<div class="panel-heading">contact me at:</div>
+		<div class="panel-body"><p>joseph.<wbr>spivack<wbr>@<wbr>stonybrook<wbr>.edu</p><a  href="https://github.com/JoeSpivack"><img src="./Img/GitHub.png" alt=email width=15% hight=15% ></a></div>
+	</div>
+	</div>
+	<div  class="container-fluid elements" style = "margin-top: -50px;">
+		<h2 style="color:#D9B310;">Bio</h2>
+		<div class="well">
+Hi, My name is Joseph Spivack and I am a student at Stony Brook University studying computer science. My main interest in computer science is robotics. As well as related fields such as computer vision. My goal at the moment is to go on to graduates school and get a degree in robotics. Toward that aim I am a mentor for my old high school’s robotics team as well as a member of the Stony Brook Computing Society and the Stony Brook Robotics Team. I am also interested in photography and play tennis in my free time.</div>	
+	</div>
+	<div id="Experience" class="container-fluid elements">
+		<h2 style="color:#D9B310;">Experience</h2> 
+  		<div class="panel-group">
+    			<div class="panel panel-default">
+      				<div class="panel-heading">Mentor for FIRST Robotics team 3950</div>
+      				<div class="panel-body">I am a programming mentor for FIRST Robotics team 3950, Robogym. You can find there website here. Every year from early January through to mid February the team builds a robot based on a challenge given by the FIRST organization. I help out by teaching programming concepts and robotics specific concepts to the members of the programming team. I was a member in high school and for three years was the head programmer. My junior year we won the regional competition and went to St. Louis for the national competition. The next year I was awarded MVP for my team.</div>
+    			</div>
+   	 		<div class="panel panel-default">
+      				<div class="panel-heading">Mentor for Sea Cliff Makeshop</div>
+      				<div class="panel-body">Near the end of high school I taught weekly programming classes for middle school students. These classes covered basic programming concepts as well as an explanation of object oriented programming using Java and C++. at the end of the these classes the students would develop a basic game by implementing the game logic and I took the project and brought them to life with visuals.</div>
+    			</div>
+		</div>
+	</div>
+	<div id="Skills" class="container-fluid elements">
+	<h2 style="color:#D9B310;">Skills</h2>
+		<div class="well">I am proficient in a number of programming language including Java, C/C++, Python, C#, MySQL, MIPS Assembly and the arduino derivative of C++. Some of these languages I learned for classes here at Stony Brook but some of them I learned because of my own interest; those include Java, Python and C#. I have experience using the WPILib in both C++ and Java from my experience with FIRST Robotics. I am familiar with the Unix terminal and have some experience doing 3D modeling using OpenSCAD.</div>
+		<h3>programming languages:</h3>
+		<hr />		
+		<h4>Java</h4>
+		<div class="progress">
+  			<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+    				<span class="sr-only">95% Complete</span>
+  			</div>
+		</div>
+		<h4>C</h4>
+		<div class="progress">
+  			<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+    				<span class="sr-only">85% Complete</span>
+  			</div>
+		</div>
+		<h4>C++</h4>
+		<div class="progress">
+  			<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+    				<span class="sr-only">70% Complete</span>
+  			</div>
+		</div>
+		<h4>C#</h4>
+		<div class="progress">
+  			<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+    				<span class="sr-only">70% Complete</span>
+  			</div>
+		</div>
+		<h4>Python</h4>
+		<div class="progress">
+  			<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+    				<span class="sr-only">80% Complete</span>
+  			</div>
+		</div>
+		<h4>MySQL</h4>
+		<div class="progress">
+  			<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+    				<span class="sr-only">40% Complete</span>
+  			</div>
+		</div>
+		<h4>MIPS Assembly</h4>
+		<div class="progress">
+  			<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+    				<span class="sr-only">40% Complete</span>
+  			</div>
+		</div>
+		<h3>Other:</h3>
+		<hr />
+		<h4>OpenSCAD</h4>
+		<div class="progress">
+  			<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:30%">
+    				<span class="sr-only">30% Complete</span>
+  			</div>
+		</div>	
+	</div>	
+	<div id="Awards" class="container-fluid elements">
+	<h2 style="color:#D9B310;">Awards</h2>
+		<div class = "well">
+			<p>- While in middle school and high school I was a member of my local boyscout troop, troop 43. While there I was awarded the rank of eagle schout which is the highest rank acheviable in the Boy Scouts of America.</p>
+			<p>- Here at Stony Brook University I have been on the Dean's List all four semesters thus far.</p>   
+		</div>
+	</div>
+
+	<div id="Photos" class="container-fluid elements">
+	<h2 style="color:#D9B310;">Photos</h2>
+		<div class = "well">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-3 col-md-6 col-lg-4" style= "margin-bottom:15px;">
+					<a data-toggle="modal" data-target="#Image1"><img src = "./Img/Photos/Img1.jpg" class="img-rounded" width=100% hight=100%></a>
+				</div>
+				<div class="col-sm-3 col-md-6 col-lg-4" style= "margin-bottom:15px;">
+					<a data-toggle="modal" data-target="#Image2"><img src = "./Img/Photos/Img2.jpg" class="img-rounded" width=100% hight=100%></a>
+				</div>
+				<div class="col-sm-3 col-md-6 col-lg-4" style= "margin-bottom:15px;">
+					<a data-toggle="modal" data-target="#Image3"><img src = "./Img/Photos/Img3.jpg" class="img-rounded" width=100% hight=100%></a>
+				</div>
+				<div class="col-sm-3 col-md-6 col-lg-4" style= "margin-bottom:15px;">
+					<a data-toggle="modal" data-target="#Image4"><img src = "./Img/Photos/Img4.jpg" class="img-rounded" width=100% hight=100%></a>
+				</div>
+				<div class="col-sm-3 col-md-6 col-lg-4" style= "margin-bottom:15px;">
+					<a data-toggle="modal" data-target="#Image5"><img src = "./Img/Photos/Img5.jpg" class="img-rounded" width=100% hight=100%></a>
+				</div>
+				<div class="col-sm-3 col-md-6 col-lg-4" style= "margin-bottom:15px;">
+					<a data-toggle="modal" data-target="#Image6"><img src = "./Img/Photos/Img6.jpg" class="img-rounded" width=100% hight=100%></a>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div id="Image1" class="modal fade" role="dialog">
+	  	<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-body">
+        <img src = "./Img/Photos/Img1.jpg" class="img-rounded" width=100% hight=100%>
+      				</div>
+			</div>
+		</div>
+	</div>
+	<div id="Image2" class="modal fade" role="dialog">
+	  	<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-body">
+        <img src = "./Img/Photos/Img2.jpg" class="img-rounded" width=100% hight=100%>
+      				</div>
+			</div>
+		</div>
+	</div>
+	<div id="Image3" class="modal fade" role="dialog">
+	  	<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-body">
+        <img src = "./Img/Photos/Img3.jpg" class="img-rounded" width=100% hight=100%>
+      				</div>
+			</div>
+		</div>
+	</div>
+	<div id="Image4" class="modal fade" role="dialog">
+	  	<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-body">
+        <img src = "./Img/Photos/Img4.jpg" class="img-rounded" width=100% hight=100%>
+      				</div>
+			</div>
+		</div>
+	</div>
+	<div id="Image5" class="modal fade" role="dialog">
+	  	<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-body">
+        <img src = "./Img/Photos/Img5.jpg" class="img-rounded" width=100% hight=100%>
+      				</div>
+			</div>
+		</div>
+	</div>
+	<div id="Image6" class="modal fade" role="dialog">
+	  	<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-body">
+        <img src = "./Img/Photos/Img5.jpg" class="img-rounded" width=100% hight=100%>
+      				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="square" style="background-color:#328CC1; width:100%; height:250px; margin-top:100px;"></div>
+</body>
 </html>
+
